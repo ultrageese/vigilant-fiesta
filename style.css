@@ -1,0 +1,37 @@
+body{
+    background-color: #EDAC72;
+}
+div.container{
+    font: italic small-caps bold 16px/2 cursive;
+    display: grid;
+    grid-template-columns: 300px auto;
+
+}
+div.element{
+    margin: 20px;
+    background-color: #EADA72;
+    border: 20px solid #edce7200;
+}
+#links{
+    text-align: center;
+}
+#header{
+    text-align: center;
+    background: linear-gradient(
+  90deg,
+  #9c00ff,
+  #ff0000,
+  #ff8800,
+  #ffff00,
+  #02be02,
+  #0000ff,
+  #4f00ff,
+  #9c00ff
+);
+background-clip: text;
+-webkit-background-clip: text;
+color: transparent;
+font-family: 'Arial Black', sans-serif;
+font-weight: bold;
+transform: scaleY(1.5) scaleX(0.6);
+}
